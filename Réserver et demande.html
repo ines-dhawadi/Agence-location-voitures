@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="h11">
+            <img id="head" src="img1.jpg" alt="">
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="">Acceil</a></li>
+                    <li><a href="#somme">Qui somme nous</a></li>
+                    <li> <a href="#titre2">Games des voitures</a></li>
+                    <li> <a href="#titre4">Actualité</a></li>
+                    <li> <a href="#contact">contact</a></li>
+                    <li><a href="#titre3">Réserver et demande</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div id="agence">
+            <p>Agence de location au Diamant en Martinique</p>
+        </div>
+    </div>
+    <!--------------------------------------------------------form---------------------------------------->
+    <table>
+
+        <tbody>
+            <p id="titre3">Réserver et demande</p>
+            <tr>
+
+                <td colspan="3">
+                    <form action="formmail_reservation.php" method="post" name="Devis " target="_parent" id="Devis">
+                        <p>
+                            <label for="Nom ">Nom :</label>
+                            <input name="Nom " type="text" class="Formulaire" id="Nom "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                            <label for="Prenom ">Prénom : </label>
+                            <input name="Prenom " type="text" class="Formulaire" id="Prénom "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                            <label for="Date de Naissance ">Date de Naissance : </label>
+                            <input name="Date de Naissance " type="text" class="Formulaire" id="Date de Naissance ">
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                            <label for="Telephone ">Téléphone : </label>
+                            <input name="Telephone " type="text" class="Formulaire" id="Telephone "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="Email ">Email : </label>
+                            <input name="Email " type="text" class="Formulaire" id="Email " value="" size="30">
+                            <label for="Adresse"><br>
+          <br>
+          <br>
+          Adresse : </label>
+                            <input name="Adresse" type="text" class="Formulaire" id="Adresse" size="30">
+
+                            <label for="Code Postal">&nbsp;Code Postal : </label>
+                            <input name="Code Postal" type="text" class="Formulaire" id="Code Postal" size="5" maxlength="5">
+                        </p>
+
+
+                        <label for="Periodes souhaite du ">Périodes souhaité du</label>
+                        <label for="Jour">Jour</label> :
+                        <select name="Jour depart " class="Formulaire" id="Jour">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option selected="selected">Jour</option>
+</select>
+                        <label for="Mois">Mois : </label>
+                        <select name="Mois depart " class="Formulaire" id="Mois">
+<option value="Janvier">Janvier</option>
+<option value="Fevrier">Fevrier</option>
+<option value="Mars">Mars</option>
+<option value="Avril">Avril</option>
+<option value="Mai">Mai</option>
+<option value="Juin">Juin</option>
+<option value="Juillet">Juillet</option>
+<option value="Aout">Aout</option>
+<option value="Septembre">Septembre</option>
+<option value="Octobre">Octobre</option>
+<option value="Novembre">Novembre</option>
+<option value="Decembre">Decembre</option>
+<option selected="selected">Mois</option>
+</select>
+                        <label for="Annee">Annee : </label>
+                        <select name="Annee depart " class="Formulaire" id="Annee">
+<option>Annee</option>
+
+<option value="2017">2020</option>
+<option value="2018">2021</option>
+<option value="2019">2022</option>
+<option value="2020">2023</option>
+</select>
+                        <label for="Au">&nbsp;&nbsp;<br>
+<br>
+<br>
+au          :</label>
+                        <select name="Jour retour " class="Formulaire" id="Jour2">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option selected="selected">Jour</option>
+</select>
+                        <label for="Mois">Mois : </label>
+                        <select name="Mois retour " class="Formulaire" id="Mois">
+<option value="Janvier">Janvier</option>
+<option value="Fevrier">Fevrier</option>
+<option value="Mars">Mars</option>
+<option value="Avril">Avril</option>
+<option value="Mai">Mai</option>
+<option value="Juin">Juin</option>
+<option value="Juillet">Juillet</option>
+<option value="Aout">Aout</option>
+<option value="Septembre">Septembre</option>
+<option value="Octobre">Octobre</option>
+<option value="Novembre">Novembre</option>
+<option value="Decembre">Decembre</option>
+<option selected="selected">Mois</option>
+</select> </p>
+                        <label for="Vehicule souhaite"> &nbsp;&nbsp;&nbsp;&nbsp;Véhicule Souhaité* : </label>
+                        <select name="Vehicule souhaite" size="1" class="Formulaire" id="Vehicule souhaite">
+<option value="Seat Arosa Ess">Seat Arosa Ess</option>
+<option value="Ford Ka Ess">Ford Ka Ess</option>
+<option value="Renault Megane Ess">Renault Megane Ess</option>
+<option value="Santana Samourai Diesel">Santana Samourai Diesel</option>
+<option value="Suzuki Jimmy Diesel">Suzuki Jimmy Diesel</option>
+<option value="Renault Trafic Diesel">Renault Trafic Diesel</option>
+<option value="Renault Symbol Ess">Renault Symbol Ess</option>
+<option selected="selected">Choisir le véhicule</option>
+</select> *
+                        </p>
+
+                        <input name="button" type="submit" id="button" style="background-color: #73723A ; color: rgb(245,255,236)" onclick="MM_validateForm('Nom ','','R','Prénom ','','R','Date de Naissance ','','R','Telephone ','','R','Email ','','RisEmail','Adresse','','R','Commune','','R','Code Postal','','R','conditions','','R');return document.MM_returnValue"
+                            value="Je réserve mon véhicule">
+                        <p></p>
+                        <p>&nbsp; </p>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--------------------------------------------------------------------------------------------------------------------->
+    <div id="tel"><img src="https://img.icons8.com/wired/64/000000/phone.png" /> 790080654</div>
+    <!-------------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>

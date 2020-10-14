@@ -6,6 +6,12 @@
     z-index: -1;
 }
 
+html {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
 body {
     background-color: rgb(226, 222, 222)
 }
@@ -17,10 +23,10 @@ body {
 #nav {
     display: flex;
     position: relative;
-    position: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     width: 100%;
-    padding-left: 350px;
+    padding-left: 200px;
+    position: fixed;
     z-index: 1;
 }
 
@@ -45,6 +51,19 @@ nav>ul {
 nav>ul>li>a {
     text-decoration: none;
     color: black;
+}
+
+#agence {
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 200px;
+    font-family: Regular 400;
+    font-size: 60px;
+    color: rgb(145, 122, 122)
+}
+
+#agence:hover {
+    color: rgba(155, 11, 11, 0.705);
 }
 
 
@@ -116,9 +135,10 @@ tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
-    background-color: silver;
+    background-color: black;
     box-shadow: rgb(75, 65, 65);
     border-radius: 25%;
+    color: white;
 }
 
 table {
@@ -127,11 +147,7 @@ table {
     margin-left: 130px;
     width: 80%;
     position: absolute;
-    margin-top: 2100px;
-}
-
-tr:hover {
-    background-color: darkgoldenrod;
+    margin-top: 900px;
 }
 
 .card-deck {
@@ -162,13 +178,11 @@ tr:hover {
     transform: scale(1.5);
 }
 
-.card {}
-
 
 /*-------------------------------------------------------Actualité---------------------------------------------*/
 
 iframe {
-    margin-top: 2600px;
+    margin-top: 2200px;
     position: absolute;
     margin-left: 320px;
     box-shadow: silver;
@@ -178,7 +192,7 @@ iframe {
 /*--------------------------------------------------------contact------------------------------------------*/
 
 .form2 {
-    margin-top: 3000px;
+    margin-top: 2600px;
     position: absolute;
     margin-left: 150px;
     background-color: lavender;
@@ -226,8 +240,17 @@ iframe {
 
 #titre4 {
     position: absolute;
-    margin-top: 2550px;
+    margin-top: 2100px;
     margin-left: 550px;
     font-size: 38px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tel {
+    position: absolute;
+    margin-top: 3200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    width: 100%;
+    color: white;
+    padding-left: 550px;
 }
